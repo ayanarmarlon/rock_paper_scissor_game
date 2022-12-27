@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-image: linear-gradient( to right, black, aquamarine);
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo img{
+    border-radius: 50%;
+}
+.title{
+    font-size: 50px;
+}
+header{
+    background-image: linear-gradient( to top, black, aquamarine);
+    text-align: center;
+    padding-top: 10px;
+    justify-content: center;
+    height: 83vh;
+}
+iframe{
+    
+    height: 100px;
+    width: 150px;
+   
+}
+.rps{
+    display:   flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.btn{
+    display: inline-block;
+     
+}
+#pick-btn{
+   width: 30%;
+   cursor: pointer;
+   padding: 5px;
+   font-size: 25px;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   margin: 2px;
+   width: 200px;
+}
+button{
+    width: 30%;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 2px;
+ }
+
+#pick-btn:hover{
+    background-color: green;
+    color: brown;
+}
+button:hover{
+    background-color: green;
+    color: brown;
+}
+
+p{
+    font-size: 30px;
+}
+
+#scores1{
+     padding-top: 20px;
+}
+#scores2{
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 912px) {
+    nav{
+        height: 100px;
+    }
+    .logo img{
+        height: 80px;
+    }
+    .rps{
+        display: inline-block;
+        height: 100%vh;
+        width: 100%;
+    }
+    header{
+        height: 100%;
+        height: 100vh;
+    }
+    img{
+        height: 100px;
+    }
+.btn{
+    width: 100%;
+}
+    button{
+        font-size: 15px;
+        width: 20%;
+    }
+
+    #pick-btn{
+        font-size: 15px;
+        width: 30%;
+    }
+    #you-win{
+        font-size: 25px;
+    }
+    #pop-up{
+        font-size: 20px;
+    }
+    .vs img{
+        height: 80px;
+        padding-top: 20px;
+    }
+  }
